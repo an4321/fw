@@ -1,0 +1,11 @@
+fw - File Watch
+Usage: fw [-c] <watch>... -- <command>
+
+Options:
+        -c, --clear     clear before executing the command
+
+Arguments:
+        <watch>         files / directorys to monitor for updates
+        <command>       command to execute when updates are detected
+Example:
+        fw -c main.c -- cc main.c -o main

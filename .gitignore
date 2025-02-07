@@ -29,6 +29,7 @@
 *.dylib
 
 # Executables
+./fw
 *.exe
 *.out
 *.app
